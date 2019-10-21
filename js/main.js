@@ -1,4 +1,4 @@
 function alerttest(message)
 {
-	alert(message)
+	alert(message || "No msg")
 }
